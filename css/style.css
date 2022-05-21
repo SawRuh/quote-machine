@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+
+.mainbox {
+  padding: 40px;
+  width: 500px;
+  background-color: aliceblue;
+  border-radius: 20px;
+}
+
+.quote {
+  text-align: center;
+  font-family: "Cookie", cursive;
+  font-size: 35px;
+}
+
+.quoter {
+  text-align: right;
+  font-family: sans-serif;
+}
+.link-box {
+  display: flex;
+  align-items: center;
+}
+
+.link-box button {
+  margin-left: auto;
+  background-color: aqua;
+  padding: 10px 20px;
+  font-weight: bold;
+  color:#3b6365;
+  border: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+
+.link-box a {
+  margin-right: 10px;
+  width: 30px;
+}
+
+.name {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: bold;
+  font-size: 20px;
+  color: #3b6365;
+}
