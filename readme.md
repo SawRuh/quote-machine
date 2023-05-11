@@ -21,7 +21,7 @@ class Human {
     this.language = language;
      breathe();
     cry();
-    suckle();
+    
   }
 
 
@@ -39,7 +39,7 @@ class Human {
 
   }
 
-  suckle(){}
+  
 
   breathe() {
 
