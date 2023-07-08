@@ -13,6 +13,7 @@ body {
 .mainbox {
   padding: 40px;
   width: 500px;
+
   background-color: aliceblue;
   border-radius: 20px;
 }
@@ -37,11 +38,10 @@ body {
   background-color: aqua;
   padding: 10px 20px;
   font-weight: bold;
-  color:#3b6365;
+  color: #3b6365;
   border: 0;
   cursor: pointer;
   border-radius: 5px;
-  
 }
 
 .link-box a {

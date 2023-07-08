@@ -6,32 +6,45 @@ let newQuoteBtn = document.querySelector(".link-box button");
 
 let storage = [
   {
-    quote: "Winning isn’t everything, but wanting to win is.",
-    quoter: "Vince Lombardi",
-    bg: "aqua",
-  },
-  {
-    quote: "Do what you can, where you are, with what you have.",
-    quoter: "Teddy Roosevelt",
-    bg: "#74c735",
+    quote: "Naruto's official motto in life, 'Believe it!' ",
+    quoter: "Naruto",
+    bg: "#ffcbf2",
+    contrastColor: "black",
   },
   {
     quote:
-      "Never underestimate the power you have to take your life in a new direction.",
-    quoter: "Germany Kent",
-    bg: "#581845",
+      "No matter how hard or impossible it is, never lose sight of your goal.",
+    quoter: "Monkey D Luffy",
+    bg: "#FFB7B2",
+    contrastColor: "black",
   },
   {
-    quote: "Life is change. Growth is optional. Choose wisely.",
-    quoter: "Karen Kaiser Clark",
-    bg: "#FFC300",
+    quote:
+      "One day you'll be just a MEMORY to some PEOPLE. Do your best to be a Good one.",
+    quoter: "Hateke Kakashi",
+    bg: "#FFDAC1",
+    contrastColor: "#black",
+  },
+  {
+    quote: "It's not about whether I can, I have to do it!",
+    quoter: "Megumi Fshiguro",
+    bg: "#E2F0CB",
+    contrastColor: "black",
   },
 
   {
     quote:
-      "Life's not about expecting, hoping and wishing, it's about doing, being and becoming.",
-    quoter: "Mike Dooley",
-    bg: "#C70039",
+      "I don't care what society says. I've never regretted doing anything. I will survive and do what I want to.",
+    quoter: "Roronoa Zoro",
+    bg: "#B5EAD7",
+    contrastColor: "black",
+  },
+
+  {
+    quote: "Some people are worth melting for.",
+    quoter: "Olaf, Frozen",
+    bg: "#C7CEEA",
+    contrastColor: "black",
   },
 ];
 
@@ -50,6 +63,7 @@ newQuoteBtn.onclick = function () {
   quoterContainer.textContent = "- " + newQuoter;
 
   newQuoteBtn.style.backgroundColor = quoteItem.bg;
+  newQuoteBtn.style.color = quoteItem.contrastColor;
   document.body.style.backgroundColor = quoteItem.bg;
   index = index + 1;
 
