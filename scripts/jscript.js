@@ -46,6 +46,26 @@ let storage = [
     bg: "#C7CEEA",
     contrastColor: "black",
   },
+  {
+    quote: "Hard work is worthless for those that don't believe in themselves",
+    quoter: "Naruto",
+    bg: "#ff9a00",
+    contrastColor: "black",
+  },
+  {
+    quote:
+      "The strong should aid and protect the weak.Then,the weak will become strong, and they in turn will aid and protect those weaker than them. That is the law of nature",
+    quoter: "Tanjiro",
+    bg: "#c3195d",
+    contrastColor: "black",
+  },
+  {
+    quote:
+      "A person can change, at the moment when the person wishes to change.",
+    quoter: "Haruhi",
+    bg: "#50b8e7",
+    contrastColor: "black",
+  },
 ];
 
 let index = 1;

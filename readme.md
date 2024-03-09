@@ -2,6 +2,8 @@
 
 [Click here to preview](https://sawruh.github.io/quote-machine/)
 
+Below given is just the practice material and not related to this project.
+
 Lesson 1: Note: Class (properties, methods)
 
 class Human {
